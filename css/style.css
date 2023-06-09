@@ -1,0 +1,491 @@
+/*Tipos de fuente*/
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+/*Body*/
+body {
+  background-color: white;
+  font-family: "Fira Sans", sans-serif;
+}
+
+/*Header*/
+
+.header {
+  background: #000;
+  height: 70px;
+}
+
+.header__div--logo {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  float: left;
+  padding-left: 10px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.header__imgLogo {
+  width: 80%;
+}
+
+/*Nav*/
+
+.header__nav {
+  width: 70%;
+  height: 100%;
+  float: left;
+  display: block;
+}
+
+.header__ul--nav {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__li--nav {
+  display: inline-block;
+  text-align: center;
+}
+.header__a--nav {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.header__a--nav--nosotros {
+  color: #eb322f;
+}
+
+.header__a--nav--asesores {
+  color: #eb322f;
+}
+
+.header__a--nav--vehiculos {
+  color: #eb322f;
+}
+
+.header__a--nav--contact {
+  color: #eb322f;
+}
+
+.header__a--nav--inicio {
+  color: #eb322f;
+}
+
+.header__a--nav:hover {
+  color: #eb322f;
+  transform: scale(0.9, 0.9);
+  -webkit-transform: scale(0.9, 0.9);
+  -moz-transform: scale(0.9, 0.9);
+  -ms-transform: scale(0.9, 0.9);
+  -o-transform: scale(0.9, 0.9);
+}
+
+.header__div--busqueda {
+  width: 15%;
+  height: 100%;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+.header__div--busqueda__input {
+  width: 60%;
+  height: 20px;
+  border: none;
+  color: black;
+  margin-right: 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.header__div--busqueda--icono {
+  height: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #5ccdec;
+  
+  position: relative;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.header__div--busqueda--icono:hover {
+  color: #eb322f;
+}
+
+/*Imagen Inicio*/
+.imagenInicio {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.imagenInicio__img {
+  width: 75%;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+/*Nosotros-main*/
+.main {
+  width: 100%;
+  padding: 20px 0;
+}
+.main__section {
+  width: 75%;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main__article--section {
+  padding: 20px 0;
+}
+
+.main__i--article {
+  color: #5ccdec;
+  margin: 10px 0px;
+
+  font-size: 30px;
+}
+
+.main__h2--article {
+  color: #000;
+  font-size: 30px;
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+}
+.main__p--article {
+  background: #fff;
+  font-size: 16px;
+}
+
+/*Asesores*/
+.images {
+  width: 100%;
+  padding: 10px 12.5%;
+}
+.images__div {
+  display: flex;
+  float: left;
+  margin: auto;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+
+  box-shadow: 1px 1px #00000037, 1px 1px #00000037;
+}
+.images__img {
+  width: 60%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+.images__informacion {
+  width: 40%;
+  height: 100%;
+  float: right;
+  display: block;
+  text-align: center;
+}
+
+.images__h3 {
+  color: black;
+  font-size: 20px;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.images__p {
+  color: black;
+  font-size: 18px;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+/*Vehiculos*/
+.images__div--vehiculos {
+  cursor: pointer;
+}
+
+.images__div--vehiculos:hover {
+  box-shadow: 0px 5px 0px #eb322f9c, 0px 5px 0px #eb322f9c;
+}
+
+/*Contactos*/
+.formulario {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+.formulario__form {
+  margin: auto;
+  width: 40%;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+  text-align: center;
+  box-shadow: 1px 1px #00000037, 1px 1px #00000037;
+  display: grid;
+  gap: 2.5em;
+
+
+}
+
+.formulario__form__div {
+  position: relative;
+}
+
+.formulario__form__input {
+  width: 100%;
+  background: none;
+  font-size: 1rem;
+  padding: 0.6em 0.3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+}
+
+.formulario__form__label {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: translateY(10px);
+  transition: transform .5s, color .3s ;
+
+}
+
+.formulario__form__input:focus + .formulario__form__label,
+.formulario__form__input:not(:placeholder-shown) + .formulario__form__label {
+  transform: translateY(-12px) scale(0.7);
+  transform-origin: left top;
+}
+
+.formulario__form__submit{
+  cursor: pointer;
+  background-color: #5ccdec;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: .8em 0;
+  border: none;
+  border-radius: .5em;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  -ms-border-radius: .5em;
+  -o-border-radius: .5em;
+}
+
+.formulario__form__submit:hover{
+  background-color: #eb322f;
+}
+
+.formulario__line{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #5ccdec;
+  transform: scale(0) ;
+  transform: left bottom;
+  transform: transform .4s;
+}
+
+.formulario__form__input:focus ~ .formulario__line,
+.formulario__form__input:not(:placeholder-shown) ~ .formulario__line{
+  transform: scale(1);
+}
+
+.divisiones__div__p--black{
+  color: #000 !important;
+}
+
+.map{
+  display: flex;
+}
+
+.map__mapa{
+  margin: auto;
+  width: 76.5%;
+  height: 400px;
+}
+
+/*Slider*/
+.slider{
+  width: 100%;
+  margin: auto;
+  height: 650px;
+  overflow: hidden;
+}
+
+.slider__ul{
+  display: flex;
+  width: 300%;
+  height: 100%;
+  padding: 0;
+  animation: cambio 8s infinite alternate;
+  -webkit-animation: cambio 8s infinite alternate;
+
+  animation-timing-function: ease-in;
+}
+.slider__li{
+  list-style: none;
+  width: 100%;
+  height: 100%;
+
+}
+.slider__img{
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes cambio{
+  0%{margin-left: 0;}
+  20%{margin-left: 0;}
+
+  40%{margin-left: -100%;}
+  60%{margin-left: -100%;}
+
+  80%{margin-left: -200%;}
+  100%{margin-left: -200%;}
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+
+/*Footer*/
+.footer {
+  float: left;
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+}
+.divisiones {
+  width: 100%;
+  height: 185px;
+}
+
+.divisiones__div {
+  width: 33.33%;
+  display: block;
+  float: left;
+  text-align: left;
+  height: 100%;
+}
+
+.footer__div--logo__img {
+  cursor: pointer;
+}
+
+.footer__h2 {
+  color: #eb322f;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.divisiones__div__a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.divisiones__div__a:hover {
+  color: #5ccdec;
+}
+
+.divisiones__div__p {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 17px;
+  display: block;
+}
+
+.divisiones__div__i {
+  margin-right: 10px;
+}
+
+.divisiones__div__redes {
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 20px;
+}
+
+.divisiones__div__redes__a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #eb322f;
+  cursor: pointer;
+}
+
+.divisiones__div__redes__a:hover {
+  color: #5ccdec;
+}
+
+.footer__div--derechos {
+
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+  height: 15px;
+  font-size: 11px;
+  display: block;
+}
+
+.footer__div--derechos__p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer__div--derechos a{
+  text-decoration: none;
+  color: #eb322f;
+}
+
+.footer__div--derechos a:hover{
+  color: #5ccdec;
+}
